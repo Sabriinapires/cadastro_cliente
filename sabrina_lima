@@ -1,0 +1,45 @@
+<?php
+
+$nomecompletoCliente = $_GET["nomedocliente"];
+$RGCliente = $_GET["Gmail"];          
+$datadenascimento=$_GET["telefone"];
+$telefoneCliente = $_GET["cpf"];
+$emailCliente = $_GET["Rg"];.    
+
+?>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Salvar Cliente</title>
+</head>
+<body>
+    
+    <table border="1">
+
+        </tr>
+            <td>NomeCompleto</td>
+            <td><?php echo $nomecompletoCliente; ?></td>
+            </tr>
+            <td>Gmail:
+            </td>
+            <td><?php echo $GmailCliente; ?></td>
+            </tr>.     <td>< php echo $datadenascimentocliente;?></td> 
+            <td>Telefone:
+            </td>
+            <td><?php echo $foneCliente; ?></td>
+            </tr>
+            <td>Cpf:
+            </td>
+            <td><?php echo $CpfCliente; ?></td
+            </tr>
+            <td>Rg:
+            </td>
+           <td><?php echo $RgCliente; ?></td>
+        </tr>
+    </table>
+</body>
+</html>
